@@ -10,7 +10,7 @@
  */
 
 #include <SPI.h>
-#include "Arduboy.h"
+#include "assets.h"
 
 Arduboy arduboy;
 
