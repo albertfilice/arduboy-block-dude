@@ -1,10 +1,3 @@
-#ArduBreakout
-
-##Building and Uploading
-Using `git` clone the repository.
-
-**From the Linux command line or Windows Powershell**
-
-    $ git clone https://github.com/Arduboy/ArduBreakout.git
-
-Open the .ino file in the Arduino IDE, select the **Leonardo** board as the target platform. Compile the source code, and upload to the Arduboy.
+# arduboy-block-dude
+Block Dude (i.e. the TI-84 game) on the Arduboy
+>>>>>>> d51f9b3292b5400aef171c57e74fc04281ab7c57
