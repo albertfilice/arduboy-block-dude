@@ -10,6 +10,7 @@
  */
 
 #include <SPI.h>
+#include "Arduboy.h"
 #include "assets.h"
 
 Arduboy arduboy;
@@ -24,6 +25,9 @@ void setup()
 
 void loop()
 {
+  arduboy.clearDisplay();
+  arduboy.drawBitmap(8, 8, dudeRight, 8, 8, 1);
+  arduboy.drawBitmap(8, 16, brick, 8, 8, 1);
   arduboy.display();
 }
 
